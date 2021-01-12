@@ -216,7 +216,7 @@
     "learnWallet": "Læs mere om tegnebøger",
     "connectEth": "Forbindelse til det relevante Ethereum- netværk",
     "errConnect": "Fejl ved forbindelse.Prøv at opfriske siden.",
-    "tokenListTip": "RRSwap understøtter nu symbollister.Du kan tilføje dine egne brugerdefinerede lister via IPFS, HTTPS og ENS.",
+    "tokenListTip": "RRSwap understøtter nu symbollister.",
     "chooseList": "Vælg en liste",
     "tokenListIs": "Tokens lister er en",
     "openSpecific": "åben specifikation",

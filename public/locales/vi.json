@@ -216,7 +216,7 @@
 	"learnWallet": "Tìm hiểu thêm về ví",
 	"connectEth": "Xin hãy kết nối tới mạng Etherealum thích hợp.",
 	"errConnect": "Lỗi nối.Thử làm mới trang này đi.",
-	"tokenListTip": "RRTSwap hiện đang hỗ trợ danh sách.Bạn có thể thêm danh sách cá nhân qua IPFS, HTTPS và INS.",
+	"tokenListTip": "RRTSwap hiện đang hỗ trợ danh sách.",
 	"chooseList": "Chọn danh sách",
 	"tokenListIs": "Các danh sách Token là...",
 	"openSpecific": "nguyên liệu mở",

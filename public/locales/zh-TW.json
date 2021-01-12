@@ -216,7 +216,7 @@
     "learnWallet": "瞭解更多關於錢包的資訊",
     "connectEth": "請連接到相應的乙太坊網絡",
     "errConnect": "連接時出錯。嘗試刷新頁面。",
-    "tokenListTip": "RRSwap現在支持權杖清單。您可以通過IPFS、HTTPS和ENS添加您自己的自定義清單。",
+    "tokenListTip": "RRSwap現在支持Token清單。",
     "chooseList": "選擇一個清單",
     "tokenListIs": "權杖清單是",
     "openSpecific": "開放式規範",

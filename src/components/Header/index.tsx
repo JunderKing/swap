@@ -142,7 +142,7 @@ export default function Header() {
         <HeaderElement>
           <Title href=".">
             <StyledText>
-              <MasterChefText>RRSwap DEX</MasterChefText>
+              <MasterChefText>RRSwap DEX(HECO)</MasterChefText>
             </StyledText>
           </Title>
         </HeaderElement>

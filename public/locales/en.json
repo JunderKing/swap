@@ -219,7 +219,7 @@
   "learnWallet": "Learn more about wallets",
   "connectEth": "Please connect to the appropriate Ethereum network",
   "errConnect": "Error connecting. Try refreshing the page.",
-  "tokenListTip": "RRSwap now supports token lists. You can add your own custom lists via IPFS, HTTPS and ENS.",
+  "tokenListTip": "RRSwap now supports token lists. ",
   "chooseList": "Choose a list",
   "tokenListIs": "Token lists are an",
   "openSpecific": "open specification",
