@@ -11,7 +11,7 @@ import { ButtonPrimary } from '../Button'
 import { AutoColumn, ColumnCenter } from '../Column'
 import Circle from '../../assets/images/blue-loader.svg'
 
-import { getEtherscanLink } from '../../utils'
+import { getHecoScanLink } from '../../utils'
 import { useActiveWeb3React } from '../../hooks'
 import { useTranslation } from 'react-i18next'
 
@@ -94,9 +94,9 @@ function TransactionSubmittedContent({
           </Text>
 
           {chainId && hash && (
-            <ExternalLink href={getEtherscanLink(chainId, hash, 'transaction')}>
+            <ExternalLink href={getHecoScanLink(chainId, hash, 'transaction')}>
               <Text fontWeight={500} fontSize={14} color={theme.primary1}>
-                {t('viewEtherscan')}
+                {t('viewHecoScan')}
               </Text>
             </ExternalLink>
           )}

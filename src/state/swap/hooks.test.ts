@@ -14,7 +14,7 @@ describe('hooks', () => {
         )
       ).toEqual({
         [Field.OUTPUT]: { currencyId: '0x6B175474E89094C44Da98b954EedeAC495271d0F' },
-        [Field.INPUT]: { currencyId: 'ETH' },
+        [Field.INPUT]: { currencyId: 'HT' },
         typedValue: '20.5',
         independentField: Field.OUTPUT,
         recipient: null

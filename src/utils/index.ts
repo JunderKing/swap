@@ -17,7 +17,7 @@ export function isAddress(value: any): string | false {
   }
 }
 
-const ETHERSCAN_PREFIXES: { [chainId in ChainId]: string } = {
+const HecoScan_PREFIXES: { [chainId in ChainId]: string } = {
   1: '',
   3: 'ropsten.',
   4: 'rinkeby.',
@@ -28,8 +28,8 @@ const ETHERSCAN_PREFIXES: { [chainId in ChainId]: string } = {
   256: 'hecotest'
 }
 
-export function getEtherscanLink(chainId: ChainId, data: string, type: 'transaction' | 'token' | 'address'): string {
-  let prefix = `https://${ETHERSCAN_PREFIXES[chainId] || ETHERSCAN_PREFIXES[1]}etherscan.io`
+export function getHecoScanLink(chainId: ChainId, data: string, type: 'transaction' | 'token' | 'address'): string {
+  let prefix = `https://${HecoScan_PREFIXES[chainId] || HecoScan_PREFIXES[1]}HecoScan.com`
 
   if(chainId == ChainId.HECOMAIN){
      prefix = "https://scan.hecochain.com";

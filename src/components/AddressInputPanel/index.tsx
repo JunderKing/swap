@@ -5,7 +5,7 @@ import { useActiveWeb3React } from '../../hooks'
 import { ExternalLink, TYPE } from '../../theme'
 import { AutoColumn } from '../Column'
 import { RowBetween } from '../Row'
-import { getEtherscanLink } from '../../utils'
+import { getHecoScanLink } from '../../utils'
 import { useTranslation } from 'react-i18next'
 
 const InputPanel = styled.div`
@@ -103,8 +103,8 @@ export default function AddressInputPanel({
                 {t('recipient')}
               </TYPE.black>
               {address && chainId && (
-                <ExternalLink href={getEtherscanLink(chainId, name ?? address, 'address')} style={{ fontSize: '14px' }}>
-                  ({t('viewEtherscan')})
+                <ExternalLink href={getHecoScanLink(chainId, name ?? address, 'address')} style={{ fontSize: '14px' }}>
+                  ({t('viewHecoScan')})
                 </ExternalLink>
               )}
             </RowBetween>
