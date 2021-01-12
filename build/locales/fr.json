@@ -216,7 +216,7 @@
     "learnWallet": "Pour plus d'informations sur le portefeuille.",
     "connectEth": "Connectez - vous au réseau Ethernet.",
     "errConnect": "Erreur de connexionEssayez de rafraîchir la page.",
-    "tokenListTip": "Rrswap supporte maintenant la liste des jetons.Vous pouvez ajouter votre propre liste personnalisée par ipfs, HTTPS et ens.",
+    "tokenListTip": "Rrswap supporte maintenant la liste des jetons.",
     "chooseList": "Sélectionner une liste",
     "tokenListIs": "Liste des jetons",
     "openSpecific": "Open Standard",

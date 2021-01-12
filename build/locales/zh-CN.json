@@ -205,7 +205,7 @@
   "learnWallet": "了解一下钱包",
   "connectEth": "请连接到合适的以太坊网络",
   "errConnect": "连接错误，请刷新页面",
-  "tokenListTip": "RRSwap 现在支持通证列表。您可以通过IPFS、HTTPS、ENS添加您自己的通证列表。",
+  "tokenListTip": "RRSwap 现在支持通证列表",
   "chooseList": "选择列表",
   "tokenListIs": "通证列表是一个",
   "openSpecific": "开放规范",

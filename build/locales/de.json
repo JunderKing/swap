@@ -216,7 +216,7 @@
     "learnWallet": "Erfahren Sie mehr über Brieftaschen",
     "connectEth": "Bitte verbinden Sie sich mit dem entsprechenden Ethernet-Netzwerk",
     "errConnect": "Fehler beim Verbindungsaufbau.Versuchen Sie, die Seite zu erfrischen.",
-    "tokenListTip": "RRSwap unterstützt nun Token-Listen.Sie können Ihre eigenen benutzerdefinierten Listen über IPFS, HTTPS und ENS hinzufügen.",
+    "tokenListTip": "RRSwap unterstützt nun Token-Listen.",
     "chooseList": "Wählen Sie eine Liste",
     "tokenListIs": "Token Listen sind ein",
     "openSpecific": "offene Spezifikation",

@@ -216,7 +216,7 @@
     "learnWallet": "지갑 에 대한 정보 더 알 아 보기",
     "connectEth": "이 더 리 움 네트워크 에 연결 해 주세요.",
     "errConnect": "연결 중 오류 가 발생 했 습 니 다.페이지 새로 고침 시도.",
-    "tokenListTip": "RSwap 는 현재 토 큰 목록 을 지원 합 니 다.IPFS, HTTPS, ENS 를 통 해 사용자 정의 목록 을 추가 할 수 있 습 니 다.",
+    "tokenListTip": "RSwap 는 현재 토 큰 목록 을 지원 합 니 다.",
     "chooseList": "목록 을 선택 하 다",
     "tokenListIs": "토 큰 목록 은",
     "openSpecific": "개방 형 규범",

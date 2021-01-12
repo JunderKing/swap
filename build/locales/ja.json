@@ -216,7 +216,7 @@
     "learnWallet": "財布について詳しく知る",
     "connectEth": "適切なエーテルネットワークに接続してください",
     "errConnect": "接続エラー。ページをリフレッシュしてみてください。",
-    "tokenListTip": "rrswap今すぐトークンのリストをサポートします。IPFS、HTTPSとensを介して独自のカスタムリストを追加することができます。",
+    "tokenListTip": "rrswap今すぐトークンのリストをサポートします",
     "chooseList": "リストの選択",
     "tokenListIs": "トークンリストは",
     "openSpecific": "オープン仕様",
