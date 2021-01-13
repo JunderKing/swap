@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import { Info, Code, MessageCircle } from 'react-feather'
+import { Code, MessageCircle } from 'react-feather'
 import styled from 'styled-components'
 import { ReactComponent as MenuIcon } from '../../assets/images/menu.svg'
 import { useOnClickOutside } from '../../hooks/useOnClickOutside'
@@ -95,15 +95,11 @@ export default function Menu() {
       </StyledMenuButton>
       {open && (
         <MenuFlyout>
-          <MenuItem id="link" href="https://rrex.com/">
-            <Info size={14} />
-            {t('rrex')}
-          </MenuItem>
-          <MenuItem id="link" href="https://discord.gg/MeMcNvF">
+         <MenuItem id="link" href="https://discord.gg/MeMcNvF">
             <MessageCircle size={14} />
             {t('discord')}
           </MenuItem>
-          <MenuItem id="link" href="https://www.bitcv.net">
+          <MenuItem id="link" href="https://www.hecochain.com/">
             <Code size={14} />
             {t('mainnet')}
           </MenuItem>
