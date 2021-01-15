@@ -6,6 +6,9 @@ import { updateVersion } from '../global/actions'
 import { acceptListUpdate, addList, fetchTokenList, removeList, selectList } from './actions'
 import UNISWAP_DEFAULT_LIST from '../../tokens.json'
 
+localStorage.removeItem('redux_localstorage_simple_lists')
+console.log('clear cache')
+
 export interface ListsState {
   readonly byUrl: {
     readonly [url: string]: {
@@ -129,6 +132,7 @@ export default createReducer(initialState, builder =>
       }
     })
     .addCase(updateVersion, state => {
+
       // state loaded from localStorage, but new lists have never been initialized
       if (!state.lastInitializedDefaultListOfLists) {
         state.byUrl = initialState.byUrl
@@ -152,7 +156,7 @@ export default createReducer(initialState, builder =>
           }
         })
       }
-
+     
       state.lastInitializedDefaultListOfLists = DEFAULT_LIST_OF_LISTS
     })
 )
