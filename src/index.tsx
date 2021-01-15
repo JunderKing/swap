@@ -22,7 +22,8 @@ const Web3ProviderNetwork = createWeb3ReactRoot(NetworkContextName)
 if ('ethereum' in window) {
   ;(window.ethereum as any).autoRefreshOnNetworkChange = false
 }
-
+localStorage.removeItem('redux_localstorage_simple_lists')
+console.log('clear cache')
 const GOOGLE_ANALYTICS_ID: string | undefined = process.env.REACT_APP_GOOGLE_ANALYTICS_ID
 if (typeof GOOGLE_ANALYTICS_ID === 'string') {
   ReactGA.initialize(GOOGLE_ANALYTICS_ID)
